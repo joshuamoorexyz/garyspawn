@@ -6,3 +6,4 @@
 - Takes Sale amount and adds total per transaction.
 - Takes Pawn amount (deduction or addition) and adds to total per transaction.
 - Takes Purchase amount and deducts from total per transaction.
+- Generates PDF report at the end of the day with per transaction detail.
