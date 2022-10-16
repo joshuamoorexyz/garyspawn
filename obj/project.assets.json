@@ -151,11 +151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joshua\\Github\\garys\\garys.csproj",
+      "projectUniqueName": "C:\\Users\\joshua\\Documents\\GitHub\\garyspawn\\garys.csproj",
       "projectName": "garys",
-      "projectPath": "C:\\Users\\joshua\\Github\\garys\\garys.csproj",
+      "projectPath": "C:\\Users\\joshua\\Documents\\GitHub\\garyspawn\\garys.csproj",
       "packagesPath": "C:\\Users\\joshua\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joshua\\Github\\garys\\obj\\",
+      "outputPath": "C:\\Users\\joshua\\Documents\\GitHub\\garyspawn\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joshua\\AppData\\Roaming\\NuGet\\NuGet.Config"
