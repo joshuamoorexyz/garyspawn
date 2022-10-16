@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FkzU6zcBlyUnrm19yK4ETA8DmKcFQ5OWywOkPmm8QAMYEJcb8z1TWWEr4Cs36mNi8kKKLX56AGZjFZwE+1/58w==",
+  "dgSpecHash": "VFKL+tNAulcfH3jDx1ZdAf/b79waJ714ggl3SFlLlqcpC8sUYL0cxlM0I5C3FrdQQBc3+GnCCxUzEBvS1UHSNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joshua\\Github\\garys\\garys.csproj",
+  "projectFilePath": "C:\\Users\\joshua\\Documents\\GitHub\\garyspawn\\garys.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joshua\\.nuget\\packages\\nstack.core\\1.0.3\\nstack.core.1.0.3.nupkg.sha512",
     "C:\\Users\\joshua\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
