@@ -11,10 +11,19 @@ namespace Default {
     using Terminal.Gui;
     
     
+    
+    
     public partial class MyDialog {
+
+        string test;
         
         public MyDialog() {
             InitializeComponent();
+             
+            
+            button1.Clicked += () => {test=(string) textfield2.Text; Console.WriteLine(test);};
+            }
+
         }
     }
-}
+

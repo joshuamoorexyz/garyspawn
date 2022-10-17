@@ -25,9 +25,15 @@ namespace Default {
         
         private Terminal.Gui.Label label12;
         
+        private Terminal.Gui.TextField textfield12;
+        
         private Terminal.Gui.Label label14;
         
+        private Terminal.Gui.TextField textfield122;
+        
         private Terminal.Gui.Label label13;
+        
+        private Terminal.Gui.TextField textfield1222;
         
         private Terminal.Gui.Label label3;
         
@@ -35,41 +41,75 @@ namespace Default {
         
         private Terminal.Gui.Label label15;
         
+        private Terminal.Gui.TextField textfield12222;
+        
         private Terminal.Gui.Label label4;
         
         private Terminal.Gui.TextField textfield3;
         
         private Terminal.Gui.Label label16;
         
+        private Terminal.Gui.TextField textfield122222;
+        
         private Terminal.Gui.Label label5;
+        
+        private Terminal.Gui.TextField textfield32;
         
         private Terminal.Gui.Label label17;
         
+        private Terminal.Gui.TextField textfield1222222;
+        
         private Terminal.Gui.Label label6;
+        
+        private Terminal.Gui.TextField textfield323;
         
         private Terminal.Gui.Label label18;
         
+        private Terminal.Gui.TextField textfield12222222;
+        
         private Terminal.Gui.Label label7;
+        
+        private Terminal.Gui.TextField textfield322;
         
         private Terminal.Gui.Label label19;
         
+        private Terminal.Gui.TextField textfield122222222;
+        
         private Terminal.Gui.Label label8;
+        
+        private Terminal.Gui.TextField textfield3223;
         
         private Terminal.Gui.Label label20;
         
+        private Terminal.Gui.TextField textfield1222222222;
+        
         private Terminal.Gui.Label label9;
+        
+        private Terminal.Gui.TextField textfield3222;
         
         private Terminal.Gui.Label label21;
         
+        private Terminal.Gui.TextField textfield12222222222;
+        
         private Terminal.Gui.Label label10;
+        
+        private Terminal.Gui.TextField textfield32222;
         
         private Terminal.Gui.Label label22;
         
+        private Terminal.Gui.TextView textview1222;
+        
         private Terminal.Gui.Label label11;
+        
+        private Terminal.Gui.TextView textview1;
         
         private Terminal.Gui.Label label23;
         
+        private Terminal.Gui.TextView textview12;
+        
         private Terminal.Gui.Label label232;
+        
+        private Terminal.Gui.TextView textview122;
         
         private Terminal.Gui.Label label112;
         
@@ -77,39 +117,74 @@ namespace Default {
         
         private Terminal.Gui.Label label11232;
         
+        private Terminal.Gui.TextField textfield32222222;
+        
         private Terminal.Gui.Label label1122;
+        
+        private Terminal.Gui.TextField textfield322222;
+        
+        private Terminal.Gui.TextView textview1223;
         
         private Terminal.Gui.Label label112322;
         
+        private Terminal.Gui.TextField textfield3222222;
+        
+        private Terminal.Gui.Button button1;
+        
         private void InitializeComponent() {
+            this.button1 = new Terminal.Gui.Button();
+            this.textfield3222222 = new Terminal.Gui.TextField();
             this.label112322 = new Terminal.Gui.Label();
+            this.textview1223 = new Terminal.Gui.TextView();
+            this.textfield322222 = new Terminal.Gui.TextField();
             this.label1122 = new Terminal.Gui.Label();
+            this.textfield32222222 = new Terminal.Gui.TextField();
             this.label11232 = new Terminal.Gui.Label();
             this.label1123 = new Terminal.Gui.Label();
             this.label112 = new Terminal.Gui.Label();
+            this.textview122 = new Terminal.Gui.TextView();
             this.label232 = new Terminal.Gui.Label();
+            this.textview12 = new Terminal.Gui.TextView();
             this.label23 = new Terminal.Gui.Label();
+            this.textview1 = new Terminal.Gui.TextView();
             this.label11 = new Terminal.Gui.Label();
+            this.textview1222 = new Terminal.Gui.TextView();
             this.label22 = new Terminal.Gui.Label();
+            this.textfield32222 = new Terminal.Gui.TextField();
             this.label10 = new Terminal.Gui.Label();
+            this.textfield12222222222 = new Terminal.Gui.TextField();
             this.label21 = new Terminal.Gui.Label();
+            this.textfield3222 = new Terminal.Gui.TextField();
             this.label9 = new Terminal.Gui.Label();
+            this.textfield1222222222 = new Terminal.Gui.TextField();
             this.label20 = new Terminal.Gui.Label();
+            this.textfield3223 = new Terminal.Gui.TextField();
             this.label8 = new Terminal.Gui.Label();
+            this.textfield122222222 = new Terminal.Gui.TextField();
             this.label19 = new Terminal.Gui.Label();
+            this.textfield322 = new Terminal.Gui.TextField();
             this.label7 = new Terminal.Gui.Label();
+            this.textfield12222222 = new Terminal.Gui.TextField();
             this.label18 = new Terminal.Gui.Label();
+            this.textfield323 = new Terminal.Gui.TextField();
             this.label6 = new Terminal.Gui.Label();
+            this.textfield1222222 = new Terminal.Gui.TextField();
             this.label17 = new Terminal.Gui.Label();
+            this.textfield32 = new Terminal.Gui.TextField();
             this.label5 = new Terminal.Gui.Label();
+            this.textfield122222 = new Terminal.Gui.TextField();
             this.label16 = new Terminal.Gui.Label();
             this.textfield3 = new Terminal.Gui.TextField();
             this.label4 = new Terminal.Gui.Label();
+            this.textfield12222 = new Terminal.Gui.TextField();
             this.label15 = new Terminal.Gui.Label();
             this.textfield2 = new Terminal.Gui.TextField();
             this.label3 = new Terminal.Gui.Label();
+            this.textfield1222 = new Terminal.Gui.TextField();
             this.label13 = new Terminal.Gui.Label();
+            this.textfield122 = new Terminal.Gui.TextField();
             this.label14 = new Terminal.Gui.Label();
+            this.textfield12 = new Terminal.Gui.TextField();
             this.label12 = new Terminal.Gui.Label();
             this.textfield1 = new Terminal.Gui.TextField();
             this.label2 = new Terminal.Gui.Label();
@@ -168,6 +243,15 @@ namespace Default {
             this.label12.Text = "TOTAL CASH ON HAND: .....:";
             this.label12.TextAlignment = Terminal.Gui.TextAlignment.Right;
             this.Add(this.label12);
+            this.textfield12.Width = 4;
+            this.textfield12.Height = 1;
+            this.textfield12.X = 85;
+            this.textfield12.Y = 1;
+            this.textfield12.Secret = false;
+            this.textfield12.Data = "textfield12";
+            this.textfield12.Text = "<";
+            this.textfield12.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield12);
             this.label14.Width = 4;
             this.label14.Height = 1;
             this.label14.X = 55;
@@ -176,6 +260,15 @@ namespace Default {
             this.label14.Text = "PURCHASE: .....:";
             this.label14.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label14);
+            this.textfield122.Width = 4;
+            this.textfield122.Height = 1;
+            this.textfield122.X = 85;
+            this.textfield122.Y = 2;
+            this.textfield122.Secret = false;
+            this.textfield122.Data = "textfield122";
+            this.textfield122.Text = "<";
+            this.textfield122.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield122);
             this.label13.Width = 4;
             this.label13.Height = 1;
             this.label13.X = 55;
@@ -184,6 +277,15 @@ namespace Default {
             this.label13.Text = "NEW MODE PURCHASE: ....";
             this.label13.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label13);
+            this.textfield1222.Width = 4;
+            this.textfield1222.Height = 1;
+            this.textfield1222.X = 85;
+            this.textfield1222.Y = 3;
+            this.textfield1222.Secret = false;
+            this.textfield1222.Data = "textfield1222";
+            this.textfield1222.Text = "<";
+            this.textfield1222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield1222);
             this.label3.Width = 4;
             this.label3.Height = 1;
             this.label3.X = 0;
@@ -209,6 +311,15 @@ namespace Default {
             this.label15.Text = "NEW PAWNS: ....";
             this.label15.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label15);
+            this.textfield12222.Width = 4;
+            this.textfield12222.Height = 1;
+            this.textfield12222.X = 85;
+            this.textfield12222.Y = 4;
+            this.textfield12222.Secret = false;
+            this.textfield12222.Data = "textfield12222";
+            this.textfield12222.Text = "<";
+            this.textfield12222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield12222);
             this.label4.Width = 4;
             this.label4.Height = 1;
             this.label4.X = 0;
@@ -234,6 +345,15 @@ namespace Default {
             this.label16.Text = "BANK DEPOSITS: ....";
             this.label16.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label16);
+            this.textfield122222.Width = 4;
+            this.textfield122222.Height = 1;
+            this.textfield122222.X = 85;
+            this.textfield122222.Y = 5;
+            this.textfield122222.Secret = false;
+            this.textfield122222.Data = "textfield122222";
+            this.textfield122222.Text = "<";
+            this.textfield122222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield122222);
             this.label5.Width = 4;
             this.label5.Height = 1;
             this.label5.X = 0;
@@ -242,6 +362,15 @@ namespace Default {
             this.label5.Text = "TOTAL REGISTER SALES:........";
             this.label5.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label5);
+            this.textfield32.Width = 4;
+            this.textfield32.Height = 1;
+            this.textfield32.X = 30;
+            this.textfield32.Y = 6;
+            this.textfield32.Secret = false;
+            this.textfield32.Data = "textfield32";
+            this.textfield32.Text = "<";
+            this.textfield32.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield32);
             this.label17.Width = 4;
             this.label17.Height = 1;
             this.label17.X = 55;
@@ -250,6 +379,15 @@ namespace Default {
             this.label17.Text = "CASH PD OUT SUPPLIES: ....";
             this.label17.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label17);
+            this.textfield1222222.Width = 4;
+            this.textfield1222222.Height = 1;
+            this.textfield1222222.X = 85;
+            this.textfield1222222.Y = 6;
+            this.textfield1222222.Secret = false;
+            this.textfield1222222.Data = "textfield1222222";
+            this.textfield1222222.Text = "<";
+            this.textfield1222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield1222222);
             this.label6.Width = 4;
             this.label6.Height = 1;
             this.label6.X = 0;
@@ -258,6 +396,15 @@ namespace Default {
             this.label6.Text = "PAWN FEES: .....";
             this.label6.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label6);
+            this.textfield323.Width = 4;
+            this.textfield323.Height = 1;
+            this.textfield323.X = 30;
+            this.textfield323.Y = 7;
+            this.textfield323.Secret = false;
+            this.textfield323.Data = "textfield323";
+            this.textfield323.Text = "<";
+            this.textfield323.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield323);
             this.label18.Width = 4;
             this.label18.Height = 1;
             this.label18.X = 55;
@@ -266,6 +413,15 @@ namespace Default {
             this.label18.Text = "FREIGHT & POSTAGE: ....";
             this.label18.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label18);
+            this.textfield12222222.Width = 4;
+            this.textfield12222222.Height = 1;
+            this.textfield12222222.X = 85;
+            this.textfield12222222.Y = 7;
+            this.textfield12222222.Secret = false;
+            this.textfield12222222.Data = "textfield12222222";
+            this.textfield12222222.Text = "<";
+            this.textfield12222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield12222222);
             this.label7.Width = 4;
             this.label7.Height = 1;
             this.label7.X = 0;
@@ -274,6 +430,15 @@ namespace Default {
             this.label7.Text = "PAWN REDEEM: ....";
             this.label7.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label7);
+            this.textfield322.Width = 4;
+            this.textfield322.Height = 1;
+            this.textfield322.X = 30;
+            this.textfield322.Y = 8;
+            this.textfield322.Secret = false;
+            this.textfield322.Data = "textfield322";
+            this.textfield322.Text = "<";
+            this.textfield322.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield322);
             this.label19.Width = 4;
             this.label19.Height = 1;
             this.label19.X = 55;
@@ -282,6 +447,15 @@ namespace Default {
             this.label19.Text = "YARD & PEST CONTROL: ....";
             this.label19.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label19);
+            this.textfield122222222.Width = 4;
+            this.textfield122222222.Height = 1;
+            this.textfield122222222.X = 85;
+            this.textfield122222222.Y = 8;
+            this.textfield122222222.Secret = false;
+            this.textfield122222222.Data = "textfield122222222";
+            this.textfield122222222.Text = "<";
+            this.textfield122222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield122222222);
             this.label8.Width = 4;
             this.label8.Height = 1;
             this.label8.X = 0;
@@ -290,6 +464,15 @@ namespace Default {
             this.label8.Text = "WHOLESALE/PURC GIFT CARD: ....";
             this.label8.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label8);
+            this.textfield3223.Width = 4;
+            this.textfield3223.Height = 1;
+            this.textfield3223.X = 30;
+            this.textfield3223.Y = 9;
+            this.textfield3223.Secret = false;
+            this.textfield3223.Data = "textfield3223";
+            this.textfield3223.Text = "<";
+            this.textfield3223.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield3223);
             this.label20.Width = 4;
             this.label20.Height = 1;
             this.label20.X = 55;
@@ -298,6 +481,15 @@ namespace Default {
             this.label20.Text = "GIFT CARD REDEEMED: ...";
             this.label20.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label20);
+            this.textfield1222222222.Width = 4;
+            this.textfield1222222222.Height = 1;
+            this.textfield1222222222.X = 85;
+            this.textfield1222222222.Y = 9;
+            this.textfield1222222222.Secret = false;
+            this.textfield1222222222.Data = "textfield1222222222";
+            this.textfield1222222222.Text = "<";
+            this.textfield1222222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield1222222222);
             this.label9.Width = 4;
             this.label9.Height = 1;
             this.label9.X = 0;
@@ -306,6 +498,15 @@ namespace Default {
             this.label9.Text = "REGISTER TAX: .....";
             this.label9.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label9);
+            this.textfield3222.Width = 4;
+            this.textfield3222.Height = 1;
+            this.textfield3222.X = 30;
+            this.textfield3222.Y = 10;
+            this.textfield3222.Secret = false;
+            this.textfield3222.Data = "textfield3222";
+            this.textfield3222.Text = "<";
+            this.textfield3222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield3222);
             this.label21.Width = 4;
             this.label21.Height = 1;
             this.label21.X = 55;
@@ -314,6 +515,15 @@ namespace Default {
             this.label21.Text = "MISCALLEANOUS EXPENSE: .....";
             this.label21.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label21);
+            this.textfield12222222222.Width = 4;
+            this.textfield12222222222.Height = 1;
+            this.textfield12222222222.X = 85;
+            this.textfield12222222222.Y = 10;
+            this.textfield12222222222.Secret = false;
+            this.textfield12222222222.Data = "textfield12222222222";
+            this.textfield12222222222.Text = "<";
+            this.textfield12222222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield12222222222);
             this.label10.Width = 4;
             this.label10.Height = 1;
             this.label10.X = 0;
@@ -322,6 +532,15 @@ namespace Default {
             this.label10.Text = "LAYAWAY TAX: ......";
             this.label10.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label10);
+            this.textfield32222.Width = 4;
+            this.textfield32222.Height = 1;
+            this.textfield32222.X = 30;
+            this.textfield32222.Y = 11;
+            this.textfield32222.Secret = false;
+            this.textfield32222.Data = "textfield32222";
+            this.textfield32222.Text = "<";
+            this.textfield32222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield32222);
             this.label22.Width = 4;
             this.label22.Height = 1;
             this.label22.X = 55;
@@ -330,6 +549,17 @@ namespace Default {
             this.label22.Text = "ENDING CASH ON HAND: ...";
             this.label22.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label22);
+            this.textview1222.Width = 4;
+            this.textview1222.Height = 1;
+            this.textview1222.X = 80;
+            this.textview1222.Y = 11;
+            this.textview1222.AllowsTab = true;
+            this.textview1222.AllowsReturn = true;
+            this.textview1222.WordWrap = false;
+            this.textview1222.Data = "textview1222";
+            this.textview1222.Text = "0.00";
+            this.textview1222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textview1222);
             this.label11.Width = 4;
             this.label11.Height = 1;
             this.label11.X = 0;
@@ -338,6 +568,17 @@ namespace Default {
             this.label11.Text = "TOTAL TAX COLLECTED: .....";
             this.label11.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label11);
+            this.textview1.Width = 4;
+            this.textview1.Height = 1;
+            this.textview1.X = 28;
+            this.textview1.Y = 12;
+            this.textview1.AllowsTab = true;
+            this.textview1.AllowsReturn = true;
+            this.textview1.WordWrap = false;
+            this.textview1.Data = "textview1";
+            this.textview1.Text = "0.00";
+            this.textview1.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textview1);
             this.label23.Width = 4;
             this.label23.Height = 1;
             this.label23.X = 10;
@@ -346,6 +587,17 @@ namespace Default {
             this.label23.Text = "TOTAL: >>";
             this.label23.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label23);
+            this.textview12.Width = 4;
+            this.textview12.Height = 1;
+            this.textview12.X = 28;
+            this.textview12.Y = 13;
+            this.textview12.AllowsTab = true;
+            this.textview12.AllowsReturn = true;
+            this.textview12.WordWrap = false;
+            this.textview12.Data = "textview12";
+            this.textview12.Text = "0.00";
+            this.textview12.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textview12);
             this.label232.Width = 4;
             this.label232.Height = 1;
             this.label232.X = 65;
@@ -354,6 +606,17 @@ namespace Default {
             this.label232.Text = "TOTAL: >>";
             this.label232.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label232);
+            this.textview122.Width = 4;
+            this.textview122.Height = 1;
+            this.textview122.X = 80;
+            this.textview122.Y = 13;
+            this.textview122.AllowsTab = true;
+            this.textview122.AllowsReturn = true;
+            this.textview122.WordWrap = false;
+            this.textview122.Data = "textview122";
+            this.textview122.Text = "0.00";
+            this.textview122.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textview122);
             this.label112.Width = 4;
             this.label112.Height = 1;
             this.label112.X = 1;
@@ -378,6 +641,15 @@ namespace Default {
             this.label11232.Text = "PAWN FEES";
             this.label11232.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label11232);
+            this.textfield32222222.Width = 4;
+            this.textfield32222222.Height = 1;
+            this.textfield32222222.X = 75;
+            this.textfield32222222.Y = 18;
+            this.textfield32222222.Secret = false;
+            this.textfield32222222.Data = "textfield32222222";
+            this.textfield32222222.Text = "<";
+            this.textfield32222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield32222222);
             this.label1122.Width = 4;
             this.label1122.Height = 1;
             this.label1122.X = 1;
@@ -386,6 +658,26 @@ namespace Default {
             this.label1122.Text = "TAX";
             this.label1122.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label1122);
+            this.textfield322222.Width = 4;
+            this.textfield322222.Height = 1;
+            this.textfield322222.X = 6;
+            this.textfield322222.Y = 19;
+            this.textfield322222.Secret = false;
+            this.textfield322222.Data = "textfield322222";
+            this.textfield322222.Text = "<";
+            this.textfield322222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield322222);
+            this.textview1223.Width = 4;
+            this.textview1223.Height = 1;
+            this.textview1223.X = 37;
+            this.textview1223.Y = 19;
+            this.textview1223.AllowsTab = true;
+            this.textview1223.AllowsReturn = true;
+            this.textview1223.WordWrap = false;
+            this.textview1223.Data = "textview1223";
+            this.textview1223.Text = "0.00";
+            this.textview1223.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textview1223);
             this.label112322.Width = 4;
             this.label112322.Height = 1;
             this.label112322.X = 55;
@@ -394,6 +686,23 @@ namespace Default {
             this.label112322.Text = "PD PAWN INTEREST:";
             this.label112322.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.label112322);
+            this.textfield3222222.Width = 4;
+            this.textfield3222222.Height = 1;
+            this.textfield3222222.X = 75;
+            this.textfield3222222.Y = 19;
+            this.textfield3222222.Secret = false;
+            this.textfield3222222.Data = "textfield3222222";
+            this.textfield3222222.Text = "<";
+            this.textfield3222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
+            this.Add(this.textfield3222222);
+            this.button1.Width = 13;
+            this.button1.X = 0;
+            this.button1.Y = 24;
+            this.button1.Data = "button1";
+            this.button1.Text = "Calculate";
+            this.button1.TextAlignment = Terminal.Gui.TextAlignment.Centered;
+            this.button1.IsDefault = false;
+            this.Add(this.button1);
         }
     }
 }
