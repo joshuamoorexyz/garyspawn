@@ -21,7 +21,7 @@ namespace Default {
             InitializeComponent();
              
             
-            button1.Clicked += () => {test=(string) textfield2.Text; Console.WriteLine(test);};
+            button1.Clicked += () => {test=(string) textfield2.Text;textfield32.Text=test; Console.WriteLine(test);};
             }
 
         }
