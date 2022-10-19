@@ -15,13 +15,29 @@ namespace Default {
     
     public partial class MyDialog {
 
+        public static String AddTwoStrings(string one, string two)
+        {
+            int iOne = 0;
+            int iTwo = 0;
+            Int32.TryParse(one, out iOne);
+            Int32.TryParse(two, out iTwo);
+            return (iOne + iTwo).ToString();
+        }
+
         string test;
+        string pawnfees;
         
         public MyDialog() {
             InitializeComponent();
              
             
-            button1.Clicked += () => {test=(string) textfield2.Text;textfield32.Text=test; Console.WriteLine(test);};
+            button1.Clicked += () => {test=(string) textfield2.Text;textfield32.Text=test; Console.WriteLine(test);pawnfees = (string)textfield323.Text;textfield32.Text = AddTwoStrings(test, pawnfees);};
+
+
+                            // Pawn fees textfield
+                
+                // TEST adding sales + pawn fees
+                
             }
 
         }
