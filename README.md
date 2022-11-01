@@ -7,7 +7,7 @@
 - Generates PDF report at the end of the day with per transaction detail.
 
 # Todo:
-- Clean up formatting so columns align
+- Clean up formatting so columns align.
 - Need a way to save cash on hand for each day + record numbers (store by date?) in a text file?
 - Current date should be displayed upon running the program.
 - On tab, the total register sales should continuously +=.
