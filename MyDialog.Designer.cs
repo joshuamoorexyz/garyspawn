@@ -249,7 +249,7 @@ namespace Default {
             this.textfield12.Y = 1;
             this.textfield12.Secret = false;
             this.textfield12.Data = "textfield12";
-            this.textfield12.Text = "<";
+            this.textfield12.Text = "";
             this.textfield12.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield12);
             this.label14.Width = 4;
@@ -266,7 +266,7 @@ namespace Default {
             this.textfield122.Y = 2;
             this.textfield122.Secret = false;
             this.textfield122.Data = "textfield122";
-            this.textfield122.Text = "<";
+            this.textfield122.Text = "";
             this.textfield122.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield122);
             this.label13.Width = 4;
@@ -283,7 +283,7 @@ namespace Default {
             this.textfield1222.Y = 3;
             this.textfield1222.Secret = false;
             this.textfield1222.Data = "textfield1222";
-            this.textfield1222.Text = "<";
+            this.textfield1222.Text = "";
             this.textfield1222.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield1222);
             this.label3.Width = 4;
@@ -300,7 +300,7 @@ namespace Default {
             this.textfield2.Y = 4;
             this.textfield2.Secret = false;
             this.textfield2.Data = "textfield2";
-            this.textfield2.Text = "<";
+            this.textfield2.Text = "";
             this.textfield2.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield2);
             this.label15.Width = 4;
@@ -317,7 +317,7 @@ namespace Default {
             this.textfield12222.Y = 4;
             this.textfield12222.Secret = false;
             this.textfield12222.Data = "textfield12222";
-            this.textfield12222.Text = "<";
+            this.textfield12222.Text = "";
             this.textfield12222.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield12222);
             this.label4.Width = 4;
@@ -334,7 +334,7 @@ namespace Default {
             this.textfield3.Y = 5;
             this.textfield3.Secret = false;
             this.textfield3.Data = "textfield3";
-            this.textfield3.Text = "<";
+            this.textfield3.Text = "";
             this.textfield3.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield3);
             this.label16.Width = 4;
@@ -351,7 +351,7 @@ namespace Default {
             this.textfield122222.Y = 5;
             this.textfield122222.Secret = false;
             this.textfield122222.Data = "textfield122222";
-            this.textfield122222.Text = "<";
+            this.textfield122222.Text = "";
             this.textfield122222.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield122222);
             this.label5.Width = 4;
@@ -368,7 +368,7 @@ namespace Default {
             this.textfield32.Y = 6;
             this.textfield32.Secret = false;
             this.textfield32.Data = "textfield32";
-            this.textfield32.Text = "<";
+            this.textfield32.Text = "";
             this.textfield32.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield32);
             this.label17.Width = 4;
@@ -385,7 +385,7 @@ namespace Default {
             this.textfield1222222.Y = 6;
             this.textfield1222222.Secret = false;
             this.textfield1222222.Data = "textfield1222222";
-            this.textfield1222222.Text = "<";
+            this.textfield1222222.Text = "";
             this.textfield1222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield1222222);
             this.label6.Width = 4;
@@ -402,7 +402,7 @@ namespace Default {
             this.textfield323.Y = 7;
             this.textfield323.Secret = false;
             this.textfield323.Data = "textfield323";
-            this.textfield323.Text = "<";
+            this.textfield323.Text = "";
             this.textfield323.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield323);
             this.label18.Width = 4;
@@ -419,7 +419,7 @@ namespace Default {
             this.textfield12222222.Y = 7;
             this.textfield12222222.Secret = false;
             this.textfield12222222.Data = "textfield12222222";
-            this.textfield12222222.Text = "<";
+            this.textfield12222222.Text = "";
             this.textfield12222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield12222222);
             this.label7.Width = 4;
@@ -436,7 +436,7 @@ namespace Default {
             this.textfield322.Y = 8;
             this.textfield322.Secret = false;
             this.textfield322.Data = "textfield322";
-            this.textfield322.Text = "<";
+            this.textfield322.Text = "";
             this.textfield322.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield322);
             this.label19.Width = 4;
@@ -453,7 +453,7 @@ namespace Default {
             this.textfield122222222.Y = 8;
             this.textfield122222222.Secret = false;
             this.textfield122222222.Data = "textfield122222222";
-            this.textfield122222222.Text = "<";
+            this.textfield122222222.Text = "";
             this.textfield122222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield122222222);
             this.label8.Width = 4;
@@ -470,7 +470,7 @@ namespace Default {
             this.textfield3223.Y = 9;
             this.textfield3223.Secret = false;
             this.textfield3223.Data = "textfield3223";
-            this.textfield3223.Text = "<";
+            this.textfield3223.Text = "";
             this.textfield3223.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield3223);
             this.label20.Width = 4;
@@ -487,7 +487,7 @@ namespace Default {
             this.textfield1222222222.Y = 9;
             this.textfield1222222222.Secret = false;
             this.textfield1222222222.Data = "textfield1222222222";
-            this.textfield1222222222.Text = "<";
+            this.textfield1222222222.Text = "";
             this.textfield1222222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield1222222222);
             this.label9.Width = 4;
@@ -504,7 +504,7 @@ namespace Default {
             this.textfield3222.Y = 10;
             this.textfield3222.Secret = false;
             this.textfield3222.Data = "textfield3222";
-            this.textfield3222.Text = "<";
+            this.textfield3222.Text = "";
             this.textfield3222.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield3222);
             this.label21.Width = 4;
@@ -521,7 +521,7 @@ namespace Default {
             this.textfield12222222222.Y = 10;
             this.textfield12222222222.Secret = false;
             this.textfield12222222222.Data = "textfield12222222222";
-            this.textfield12222222222.Text = "<";
+            this.textfield12222222222.Text = "";
             this.textfield12222222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield12222222222);
             this.label10.Width = 4;
@@ -538,7 +538,7 @@ namespace Default {
             this.textfield32222.Y = 11;
             this.textfield32222.Secret = false;
             this.textfield32222.Data = "textfield32222";
-            this.textfield32222.Text = "<";
+            this.textfield32222.Text = "";
             this.textfield32222.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield32222);
             this.label22.Width = 4;
@@ -647,7 +647,7 @@ namespace Default {
             this.textfield32222222.Y = 18;
             this.textfield32222222.Secret = false;
             this.textfield32222222.Data = "textfield32222222";
-            this.textfield32222222.Text = "<";
+            this.textfield32222222.Text = "";
             this.textfield32222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield32222222);
             this.label1122.Width = 4;
@@ -664,7 +664,7 @@ namespace Default {
             this.textfield322222.Y = 19;
             this.textfield322222.Secret = false;
             this.textfield322222.Data = "textfield322222";
-            this.textfield322222.Text = "<";
+            this.textfield322222.Text = "";
             this.textfield322222.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield322222);
             this.textview1223.Width = 4;
@@ -692,7 +692,7 @@ namespace Default {
             this.textfield3222222.Y = 19;
             this.textfield3222222.Secret = false;
             this.textfield3222222.Data = "textfield3222222";
-            this.textfield3222222.Text = "<";
+            this.textfield3222222.Text = "";
             this.textfield3222222.TextAlignment = Terminal.Gui.TextAlignment.Left;
             this.Add(this.textfield3222222);
             this.button1.Width = 13;

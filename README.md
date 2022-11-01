@@ -9,5 +9,11 @@
 - Generates PDF report at the end of the day with per transaction detail.
 
 # Todo:
+- Clean up formatting so columns align
+- Need a way to save cash on hand for each day + record numbers (store by date?) in a text file?
+- Current date should be displayed upon running the program.
+- On tab, the total register sales should continuously +=.
+  - Can we update amounts on tab hit, just like the original program?
+- Beginning cash on hand? Where does this come from?
 - Need to style an .txt or .csv file that can be generated at the end of the day with per transaction break down.
-- Need to put lables in order of tab priority (check videos).
+- Need to put labels in order of tab priority (check videos).

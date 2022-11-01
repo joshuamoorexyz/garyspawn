@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joshua\\Documents\\GitHub\\garyspawn\\garys.csproj": {}
+    "C:\\Users\\microplastics\\Documents\\code\\garyspawn\\garys.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joshua\\Documents\\GitHub\\garyspawn\\garys.csproj": {
+    "C:\\Users\\microplastics\\Documents\\code\\garyspawn\\garys.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joshua\\Documents\\GitHub\\garyspawn\\garys.csproj",
+        "projectUniqueName": "C:\\Users\\microplastics\\Documents\\code\\garyspawn\\garys.csproj",
         "projectName": "garys",
-        "projectPath": "C:\\Users\\joshua\\Documents\\GitHub\\garyspawn\\garys.csproj",
-        "packagesPath": "C:\\Users\\joshua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joshua\\Documents\\GitHub\\garyspawn\\obj\\",
+        "projectPath": "C:\\Users\\microplastics\\Documents\\code\\garyspawn\\garys.csproj",
+        "packagesPath": "C:\\Users\\microplastics\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\microplastics\\Documents\\code\\garyspawn\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joshua\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\microplastics\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
