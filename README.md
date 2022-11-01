@@ -7,3 +7,7 @@
 - Takes Pawn amount (deduction or addition) and adds to total per transaction.
 - Takes Purchase amount and deducts from total per transaction.
 - Generates PDF report at the end of the day with per transaction detail.
+
+# Todo:
+- Need to style an .txt or .csv file that can be generated at the end of the day with per transaction break down.
+- Need to put lables in order of tab priority (check videos).
